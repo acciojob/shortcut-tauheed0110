@@ -1,5 +1,11 @@
 function shortcut(s1, s2) {
   // your code here
+	if (s1 === '' || s2 === '') {
+        return '';
+    }
+
+    // Return the initial letters of both strings
+    return s1.charAt(0) + s2.charAt(0);
 }
 
 // Do not change the code below.
